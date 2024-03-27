@@ -1,27 +1,43 @@
-body, html {
-    height: 100%;
+/* Global styles */
+body {
+    font-family: Helvetica, sans-serif;
     margin: 0;
-    background-color: white;
-    color:black;
-    padding: 10px;
+    padding: 0;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
 }
-div {
-    display: flex;
-    flex-direction: column; /* Arrange children in columns */
+
+/*Body Styles*/
+body {
+    width: 75%;
+    margin: 0 auto;
 }
-/*
-header, footer {
+
+/* Header styles */
+header {
     background-color: #333;
     color: #fff;
     padding: 10px;
 }
+
+/* Navigation styles */
 nav {
     background-color: #555;
     color: #fff;
     padding: 10px;
 }
-*/
-.content {
+
+/* Main content styles */
+main {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
     padding: 10px;
-    border: 1px solid #ccc;
 }
