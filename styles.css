@@ -1,17 +1,23 @@
 /* Global styles */
 body {
-    font-family: Helvetica, sans-serif, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin: 10px;
+    padding: 10px;
+    /*
     background-image: url(images/background.jpg);
     background-size: cover;
     background-position: center;
+    */
 }
 
-/*Body Styles*/
+/*Body Styles */
 body {
     width: 75%;
-    margin: 0 auto;
+    margin: 10px auto;
+    padding: 10px;
 }
 
 /* Header styles */
@@ -19,9 +25,11 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    padding: 10px;
+    /*
     background-color: #dbd7bb;
     color: #264c2d;
-    padding: 10px;
+    */
 }
 
 /* Navigation styles */
@@ -35,16 +43,22 @@ nav ul {
 
 /* Main content styles */
 main {;
+    /*
     background-color: #dbd7bb;
     color: #264c2d;
+    */
 }
+
 
 .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    padding: 10px;
+
 }
+
 
 .column {
     display: flex;
@@ -53,12 +67,18 @@ main {;
     flex: 1;
   }
 
+.content {
+    display: flex;
+    flex-direction: ;
+}
+
 /* Footer styles */
 footer {
+    padding: 10px;
+    /*
     background-color: #dbd7bb;
     color: #264c2d;
-    padding: 10px;
+    */
 }
 
 /*Image Handling*/
-

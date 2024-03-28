@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jamie → Chicago</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- It's HTML because why over engineer a portfolio page, really-->
+    <!-- It's HTML because why over engineer a portfolio page, really -->
     <header>
         <h1>Jamie → Chicago</h1>
         <nav>
@@ -22,11 +25,11 @@
         </nav>
     </header>
 
-    <main>
+    <main class="row">
         <!-- Main content of your website goes here -->
-        <div class="row">
-            <div class="column">
-                <div id="about">
+        <div class="column">
+            <div class="content">
+                <div id="about" >
                     <h2>Summary</h2>
                     <p>I'm Jamie and this is a place where you can explore my portfolio. Starting in Nov. 2022, I lead developer
                         relations at <a href="https://reservoir.tools">Reservoir</a>. Before pivoting to web3 full time, I 
@@ -44,9 +47,8 @@
                 </div>
             </div>
         </div>
-
-        <div class="row">
-            <div class="column">
+        <div class="column">
+            <div class="content">
                 <div id="work">
                     <h2>Work</h2>
                     <ul>
@@ -64,8 +66,8 @@
                 </div> 
             </div>
         </div>
-        <div class="row">
-            <div class="column">
+        <div class="column">
+            <div class="content">
                 <div id="volunteer">
                     <h2>Volunteer</h2>
                     <ul>
@@ -92,8 +94,8 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="column">
+        <div class="column">
+            <div class="content">
                 <div id="projects">
                     <h2>Projects</h2>
                     <ul>
@@ -128,11 +130,8 @@
                 </div>
             </div>
         </div>
-
     </main>
-
     <footer>
-        <!-- Your website footer content goes here -->
         <p>&copy; 2024 Jamie Chicago. All rights reserved.</p>
     </footer>
 
