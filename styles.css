@@ -6,11 +6,20 @@ body {
     font-style: normal;
     margin: 10px;
     padding: 10px;
-    /*
-    background-image: url(images/background.jpg);
-    background-size: cover;
-    background-position: center;
-    */
+}
+
+/*Dark Mode*/
+.dark-mode {
+    background-color: #121212;
+    color: lightgray;
+}
+
+.dark-mode a {
+    color: lightgray;
+}
+
+.dark-mode a:visited {
+    color: lightgray
 }
 
 /*Body Styles */
@@ -32,7 +41,20 @@ header {
     */
 }
 
+#title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /* Navigation styles */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
 nav ul {
     display: flex;
     flex-flow: row;
@@ -41,14 +63,22 @@ nav ul {
     list-style: none;
 }
 
+#darkButton {
+    background-color: slateblue;
+    color: lightgray;
+    height: 100%;
+    border-radius: 5px;
+    margin: 2px;
+}
+
 /* Main content styles */
-main {;
+main {
+    line-height: 1.5;
     /*
     background-color: #dbd7bb;
     color: #264c2d;
     */
 }
-
 
 .row {
     display: flex;
@@ -81,4 +111,23 @@ footer {
     */
 }
 
-/*Image Handling*/
+/*Link Handling*/
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+/*Mobile Optimization*/
+
+@media screen and (max-width: 768px) {
+
+    #title {
+        flex: display;
+        
+    }
+
+
+}
