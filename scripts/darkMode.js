@@ -27,4 +27,12 @@ setInterval(autoMode, 60000); // Update every minute
 function myFunction() {
     var element = document.body;
     element.classList.toggle("dark-mode");
+
+    var icon = document.getElementById("darkIcon"); // Get the icon element
+    // Toggle icon based on dark mode state
+    if (element.classList.contains("dark-mode")) {
+        icon.src = "images/darkMode.png"; // Change the icon to dark mode icon
+    } else {
+        icon.src = "images/lightMode.png"; // Change the icon to light mode icon
+    }
 }
